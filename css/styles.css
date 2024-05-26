@@ -1,0 +1,154 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    font-family:Inter,sans-serif;
+    color: #2e363e;
+    background-color:#fff;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+text-decoration: none;
+}
+address{
+    font-style: normal;
+}
+button{
+    cursor: pointer;
+}
+img{
+    display:block;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+section{
+    padding: 100px 0;
+}
+
+/* Header */
+
+.header {
+    border-bottom: 3px solid #275f7a;
+}
+
+.header-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.header-logo {
+    font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 37px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #275f7a;
+}
+
+.header-nav {
+    
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+    
+    
+}
+
+.header-item{
+
+}
+/* .header-item:not(:last-child) {
+    margin-right: 40px;
+} */
+
+.header-nav-link {
+    display: block;
+    font-weight: 500;
+        font-size: 18px;
+    
+        line-height: 27px; 
+        line-height: 150%;
+        color: #2e363e;
+        padding-top: 41px;
+        padding-bottom: 41px;
+}
+.header-nav-link:hover{
+    color:#275f7a;
+}
+.header-nav-link:focus {
+    color: #275f7a;
+}
+
+.header-tel-link {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 27px; 
+        line-height: 152%;
+        text-align: right;
+        color: #275f7a;
+}
+
+/* section 1 */
+
+.hero {}
+
+.hero-container{
+display: flex;
+align-items: center;
+}
+
+.hero-box{
+
+}
+
+.hero-title {
+        
+        font-size: 48px;
+        line-height: 62px; 
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #2e363e;
+        margin-bottom: 25px;
+}
+
+.hero-text {
+        
+        font-size: 21px;
+        line-height: 34px; 
+        line-height: 160%;
+        letter-spacing: -0.01em;
+        color: #434b53;
+        margin-bottom: 25px;
+        max-width: 434px;
+}
+
+.hero-button {
+        border-radius: 5px;
+        min-width: 337px;
+        height: 70px;
+        background: #275f7a;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 30px; 
+        line-height: 143%;
+        letter-spacing: -0.01em;
+        color: #fff;
+        border: none;
+}
+
+.hero-img {}
